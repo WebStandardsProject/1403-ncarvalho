@@ -1,0 +1,10 @@
+/* FOOTER STYLES */
+footer ul{
+	list-style-type: none;
+	margin: 5px;
+}
+
+footer li{
+	display: inline-block;
+	margin: 5px;	
+}

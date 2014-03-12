@@ -2,56 +2,78 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>The Art of Nails | Sign Up</title>
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
 	<link rel="stylesheet" href="css/styles.css">
-	
-	<script src="js/script.js" type="text/javascript"></script>
-	
+	<script src="js/script.js" type="text/javascript"></script>	
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
 
-	<header>
-			<h1><a href="index.html">The Art of Nails</a></h1>
-			<nav>
-				<ul>
-					<li><a href="results.html">Results</a></li>
-					<li><a href="itemDetails.html">Details</a></li>
-					<li><a href="designBook.html">Design Book</a></li>
-					<li><a href="logIn.html">Log In</a></li>
-					<li><a href="signUp.html">Sign Up</a></li>
-				</ul>
-				<form>
-					<input type="text" name="search"  />
-					<input type="submit" name="submit" value="Find Inspiration" />
-				</form>
-			</nav>
-		</header>
-		
-		<form>
-			<h1>Sign Up</h1>
-			<p>Enter email <br><input type="email" name="email" required="required" /></p>
-			<p>Create a username<br> <input type="text" name="username" required="required" /></p>
-			<p>Create a password<br> <input type="password" name="password" required="required" /></p>
-			<p><small>By tapping "Sign Up", you are indicating that you have read the <a href="#">Privacy Policy</a> and agree to the <a href="#">Terms of Service</a>.</small></p>
-			<input type="submit" name="submit" value="Sign Up" />
-		</form>
-		
-	
-		
-		
-		<footer>
-			<ul>
-				<li>2014 &copy;</li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Privacy Policy</a></li>
-				<li><a href="#">Terms of Use</a></li>
+	<header class="row">
+		<nav class="top-bar" data-topbar>
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="index.html">The Art of Nails</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
 			</ul>
-		</footer>
+			<section class="top-bar-section">
+			<!-- Right Navigation Section -->
+				<ul class="right">
+					<li class="has-dropdown">
+						<a href="#">Hi, User</a>
+						<ul class="dropdown">
+							<li><a href="#">Upload</a></li>
+							<li><a href="designBook.html">Design Book</a></li>
+							<li><a href="#">Settings</a></li>
+							<li><a href="signUp.html">Sign Up</a></li>
+							<li><a href="logIn.html">Log In</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Log Out</a></li>
+				</ul>
+			</section>
+		</nav>		
+	</header>
 	
+	<form class="row">
+		<h1>Sign Up</h1>
+		<p>Enter email <br><input type="email" name="email" required="required" /></p>
+		<p>Create a username<br> <input type="text" name="username" required="required" /></p>
+		<p>Create a password<br> <input type="password" name="password" required="required" /></p>
+		<p><small>By tapping "Sign Up", you are indicating that you have read the <a href="#">Privacy Policy</a> and agree to the <a href="#">Terms of Service</a>.</small></p>
+		<input type="submit" name="submit" value="Sign Up" />
+	</form>
+	
+
+	
+	
+	<footer class="row">
+		<ul>
+			<li>2014 &copy;</li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Terms of Use</a></li>
+		</ul>
+	</footer>
+	
+	
+	
+	
+	
+	
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script>
+	  $(document).foundation();
+	</script>
 </body>
 </html>
