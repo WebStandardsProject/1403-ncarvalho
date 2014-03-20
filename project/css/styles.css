@@ -1,4 +1,9 @@
 /* FOOTER STYLES */
+
+footer{
+    text-align: center;
+}
+
 footer ul{
 	list-style-type: none;
 	margin: 5px;
@@ -7,4 +12,8 @@ footer ul{
 footer li{
 	display: inline-block;
 	margin: 5px;	
+}
+
+nav input[name="search"]{
+    margin: 0;
 }
