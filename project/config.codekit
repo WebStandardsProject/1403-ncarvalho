@@ -42,6 +42,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/logo-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23978,
+		"inputAbbreviatedPath": "\/img\/logo-200.png",
+		"outputAbbreviatedPath": "\/img\/logo-200.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23623,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/nail-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -159,6 +179,166 @@
 		"initialSize": 241207,
 		"inputAbbreviatedPath": "\/img\/nail-9.jpg",
 		"outputAbbreviatedPath": "\/img\/nail-9.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nail-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14411,
+		"inputAbbreviatedPath": "\/img\/nail-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/nail-girl.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/ad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19962,
+		"inputAbbreviatedPath": "\/img\/thumbs\/ad.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/ad.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-1-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91929,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-1-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-1-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-10-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91944,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-10-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-10-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-11-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117566,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-11-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-11-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-12-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104928,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-12-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-12-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-2-featured.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60227,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-2-featured.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-2-featured.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-2-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116004,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-2-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-2-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-3-featured.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56919,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-3-featured.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-3-featured.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-3-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107178,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-3-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-3-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-4-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85747,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-4-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-4-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-5-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104171,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-5-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-5-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-6-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88023,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-6-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-6-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-7-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87004,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-7-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-7-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-8-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92992,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-8-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-8-thumb.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumbs\/nail-9-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110670,
+		"inputAbbreviatedPath": "\/img\/thumbs\/nail-9-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/thumbs\/nail-9-thumb.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},

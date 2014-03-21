@@ -23,15 +23,21 @@
 				</li>
 				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
 			</ul>
+			
 			<section class="top-bar-section">
 			<!-- Right Navigation Section -->
 				<ul class="right">
-					<li class="active">
-				        <ul>
-				            <li><input type="text" name="search"></li>
-				            <li><a href="results.html">Find</a></li>
-				        </ul>
+					<li class="has-form"> 
+                        <div class="row collapse"> 
+                            <div class="large-8 small-9 columns"> 
+                                <input type="text" placeholder="Find Stuff"> 
+                            </div> 
+                            <div class="large-4 small-3 columns"> 
+                                <a href="#" class="alert button expand">Search</a> 
+                            </div> 
+                        </div>
 				    </li>
+
 					<li class="has-dropdown">
 						<a href="#">Hi, User</a>
 						<ul class="dropdown">
@@ -51,17 +57,21 @@
 	<section class="row">
 		<div class="large-8 columns">
 			<div class="row">
-				<h3>Search results for "red"</h3>
-				<form>
-					<p><label>Filter:</label>
-					<select class="filter">
-						<option value="difficulty1">Difficulty: Easy to Hard</option>
-						<option value="difficulty2">Difficulty: Hard to Easy</option>
-						<option value="newest">Newest</option>
-						<option value="popular">Popular</option>
-						<option value="seasonal">Seasonal</option>
-					</select></p>
-				</form>
+				<div class="large-6 columns">
+				    <h3>Search results for "red"</h3>
+				</div>
+				<div class="large-6 columns">
+                    <form>
+                        <p>Filter:
+                        <select class="filter">
+                            <option value="difficulty1">Difficulty: Easy to Hard</option>
+                            <option value="difficulty2">Difficulty: Hard to Easy</option>
+                            <option value="newest">Newest</option>
+                            <option value="popular">Popular</option>
+                            <option value="seasonal">Seasonal</option>
+                        </select></p>
+                    </form>
+                </div>
 			</div>
 			<div class="row">
 				<p class="large-3 columns"><a href="itemDetails.html"><img src="img/thumbs/nail-1-thumb.jpg" alt="nail-1-thumb" /></a><br>Glitter Flower by <a href="#">Nail Girl</a></p>

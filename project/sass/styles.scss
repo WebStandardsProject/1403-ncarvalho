@@ -1,0 +1,97 @@
+/* FOOTER STYLES */
+
+footer{
+    text-align: center;
+    
+    ul{
+	    list-style-type: none;
+	    margin: 5px; }
+    
+    li{
+	    display: inline-block;
+	    margin: 5px; }
+}
+
+/* NAV STYLES */
+
+nav{
+    margin-top: 10px;
+    background: #fff;   
+    
+    *{
+        color: #000;
+    }
+    
+    input[name="search"]{
+        margin: 0;
+    }
+    
+    h1{
+        width: 200px;
+        height: 108px;
+        margin: 5px;
+        background: url('../img/logo-200.png') no-repeat left top;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    h1 a{
+        width: 200px;
+        height: 108px;
+        display: block;
+    }
+    
+}
+
+nav.top-bar{
+    background: #fff;
+    height: 120px;
+    border-bottom: 3px solid #C26F76;
+    margin-bottom: 5px;
+}
+
+.top-bar-section .has-form, 
+.top-bar-section .has-form, 
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover,
+.top-bar-section ul li:hover:not(.has-form) > a,
+.top-bar-section .dropdown li a{
+    background: #C26F76;
+}
+
+/* FEATURED ASIDE STYLES */
+
+ul{
+ list-style-type: none;   
+}
+
+div.featured{
+    background: #8E9BA2;
+    margin-bottom: 10px;
+}
+
+img[alt="ad"]{
+    margin-top: 10px;
+}
+
+/* HOME PAGE STYLES*/
+
+div.index{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* THUMBNAIL STYLES */
+
+img[alt*="thumb"]{
+    border: 2px solid #C9E7E4;
+}
+
+
+/* FILTER STYLES */
+
+select.filter{
+    margin-top: 10px;
+    width: 255px;
+}
