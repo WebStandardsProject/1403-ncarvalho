@@ -14,6 +14,20 @@ footer li{
 	margin: 5px;	
 }
 
+/* NAV STYLES */
 nav input[name="search"]{
     margin: 0;
+}
+
+/* FEATURED ASIDE STYLES */
+
+ul{
+ list-style-type: none;   
+}
+
+/* HOME PAGE STYLES*/
+
+div.index{
+    width: 800px;
+    margin: 0 auto;
 }
