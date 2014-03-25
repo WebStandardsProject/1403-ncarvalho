@@ -1,3 +1,12 @@
+.container{
+    background: #fff;
+}
+
+body{
+    background-image: url('../creations/texture.jpg') repeat;
+}
+
+
 /* FOOTER STYLES */
 
 footer{
@@ -67,7 +76,6 @@ ul{
 }
 
 div.featured{
-    background: #8E9BA2;
     margin-bottom: 10px;
 }
 
@@ -95,3 +103,5 @@ select.filter{
     margin-top: 10px;
     width: 255px;
 }
+
+

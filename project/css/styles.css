@@ -1,3 +1,9 @@
+.container {
+  background: #fff; }
+
+body {
+  background-image: url("../creations/texture.jpg") repeat; }
+
 /* FOOTER STYLES */
 footer {
   text-align: center; }
@@ -48,7 +54,6 @@ ul {
   list-style-type: none; }
 
 div.featured {
-  background: #8E9BA2;
   margin-bottom: 10px; }
 
 img[alt="ad"] {
