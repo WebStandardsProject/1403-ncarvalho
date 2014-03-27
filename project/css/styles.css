@@ -149,7 +149,8 @@ fieldset {
   padding: 0 0 0 67px;
   /*IE fix*/
   cursor: pointer;
-  border: 0; }
+  border: 0;
+  outline: none; }
 
 #searchbtn:hover {
   background: url("../img/search-icon-blue.png") no-repeat center right; }
@@ -164,7 +165,8 @@ fieldset {
   padding: 0 0 0 67px;
   /*IE fix*/
   cursor: pointer;
-  border: 0; }
+  border: 0;
+  outline: none; }
 
 .globalsearchbtn:hover {
   background: url("../img/search-icon-blue-sm.png") no-repeat center right; }
