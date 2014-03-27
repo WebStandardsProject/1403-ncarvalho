@@ -9,51 +9,59 @@
 	<script src="js/vendor/modernizr.js"></script>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/script.js" type="text/javascript"></script>
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Gilda+Display|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
+    <div class="container">
+        <header class="row">
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="index.html">The Art of Nails</a></h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                </ul>
+                <section class="top-bar-section">
+                <!-- Right Navigation Section -->
+                    <ul class="right">
+                        <li class="has-form"> 
+                            <div class="row collapse"> 
+                                <div class="large-8 small-9 columns"> 
+                                    <input type="text" class="global-search" placeholder="Find a new design"> 
+                                    <a href="results.html"><input type="button" value="Search" class="globalsearchbtn" /></a>
+                                </div> 
+                            </div>
+                        </li>
+                        
+                        <li class="has-dropdown">
+                            <a href="#">Hi, User</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Upload</a></li>
+                                <li><a href="designBook.html">Design Book</a></li>
+                                <li><a href="signUp.html">Sign Up</a></li>
+                                <li><a href="logIn.html">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="#">Log Out</a></li>
+                    </ul>
+                </section>
+            </nav>	
+        </header>
 
-	<header class="row">
-		<nav class="top-bar" data-topbar>
-			<ul class="title-area">
-				<li class="name">
-					<h1><a href="index.html">The Art of Nails</a></h1>
-				</li>
-				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-			</ul>
-			<section class="top-bar-section">
-			<!-- Right Navigation Section -->
-				<ul class="right">
-					<li class="has-dropdown">
-						<a href="#">Hi, User</a>
-						<ul class="dropdown">
-							<li><a href="#">Upload</a></li>
-							<li><a href="designBook.html">Design Book</a></li>
-							<li><a href="#">Settings</a></li>
-							<li><a href="signUp.html">Sign Up</a></li>
-							<li><a href="logIn.html">Log In</a></li>
-						</ul>
-					</li>
-					<li class="active"><a href="#">Log Out</a></li>
-				</ul>
-			</section>
-		</nav>	
-	</header>
+        <form class="row">
+            <h1>Log In</h1>
+            Username: <input type="text" name="username" required />
+            Password: <input type="password" name="password" required />
+            <input type="submit" name="log-in" value="Log In" />
+        </form>
+    </div>
 	
-	<form class="row">
-		<h1>Log In</h1>
-		Username: <input type="text" name="username" required />
-		Password: <input type="password" name="password" required />
-		<input type="submit" name="log-in" value="Log In" />
-	</form>
-	
-
-	
-	
-	<footer class="row">
+	<footer class="row site-footer">
 		<ul>
 			<li>2014 &copy;</li>
 			<li><a href="#">About</a></li>

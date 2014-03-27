@@ -2,6 +2,76 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16844",
 "files": {
+	"\/creations\/edit-pencil 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296,
+		"inputAbbreviatedPath": "\/creations\/edit-pencil 2.png",
+		"outputAbbreviatedPath": "\/creations\/edit-pencil 2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/edit-pencil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296,
+		"inputAbbreviatedPath": "\/creations\/edit-pencil.png",
+		"outputAbbreviatedPath": "\/creations\/edit-pencil.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/fb_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4822,
+		"inputAbbreviatedPath": "\/creations\/fb_icon.png",
+		"outputAbbreviatedPath": "\/creations\/fb_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/google-Plus-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308866,
+		"inputAbbreviatedPath": "\/creations\/google-Plus-icon.png",
+		"outputAbbreviatedPath": "\/creations\/google-Plus-icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/nav-bar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6123,
+		"inputAbbreviatedPath": "\/creations\/nav-bar.png",
+		"outputAbbreviatedPath": "\/creations\/nav-bar.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/texture.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93624,
+		"inputAbbreviatedPath": "\/creations\/texture.jpg",
+		"outputAbbreviatedPath": "\/creations\/texture.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/creations\/twitter_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22689,
+		"inputAbbreviatedPath": "\/creations\/twitter_icon.png",
+		"outputAbbreviatedPath": "\/creations\/twitter_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/foundation.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -41,6 +111,16 @@
 		"inputAbbreviatedPath": "\/designBook.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/ad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19962,
+		"inputAbbreviatedPath": "\/img\/ad.jpg",
+		"outputAbbreviatedPath": "\/img\/ad.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/logo-200.png": {
 		"fileType": 32768,
@@ -192,13 +272,43 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/thumbs\/ad.jpg": {
-		"fileType": 16384,
+	"\/img\/search-icon-blue-sm.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19962,
-		"inputAbbreviatedPath": "\/img\/thumbs\/ad.jpg",
-		"outputAbbreviatedPath": "\/img\/thumbs\/ad.jpg",
+		"initialSize": 1860,
+		"inputAbbreviatedPath": "\/img\/search-icon-blue-sm.png",
+		"outputAbbreviatedPath": "\/img\/search-icon-blue-sm.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/search-icon-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1860,
+		"inputAbbreviatedPath": "\/img\/search-icon-blue.png",
+		"outputAbbreviatedPath": "\/img\/search-icon-blue.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/search-icon-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5042,
+		"inputAbbreviatedPath": "\/img\/search-icon-sm.png",
+		"outputAbbreviatedPath": "\/img\/search-icon-sm.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/search-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 609,
+		"inputAbbreviatedPath": "\/img\/search-icon.png",
+		"outputAbbreviatedPath": "\/img\/search-icon.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
