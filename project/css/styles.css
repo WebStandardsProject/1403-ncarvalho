@@ -103,7 +103,9 @@ ul {
 .featured-aside {
   background: #324764;
   padding: 10px;
-  margin: 0 auto; }
+  margin: 0 10px 10px 0;
+  width: 300px;
+  float: right; }
   .featured-aside h3 {
     color: #fff; }
 
@@ -118,7 +120,7 @@ div.index {
 
 /* THUMBNAIL STYLES */
 img[alt*="thumb"], img[alt*="featured"] {
-  border: 2px solid #C9E7E4; }
+  border: 2px solid #839694; }
 
 /* FILTER STYLES */
 select.filter {
@@ -192,11 +194,11 @@ div.row + .left {
 
 p[class*="large-3"], div[class*="large-3"] {
   padding: 5px;
-  margin-bottomm: 5px; }
+  margin-bottom: 5px; }
 
 .social {
   margin-bottom: 10px;
-  padding: 10px 0 10px 0;
+  padding: 10px 10px 10px 0;
   text-align: right; }
   .social img, .social a {
     margin: 0 0 0 -2px;
@@ -225,7 +227,8 @@ span {
     margin: 5px 0; }
 
 img[alt*="ad-space"] {
-  float: right; }
+  float: right;
+  margin-right: 10px; }
 
 form.row {
   width: 540px;
