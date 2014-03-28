@@ -4,13 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>The Art of Nails | Home</title>
+	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/foundation.css" />
-	<script src="js/vendor/modernizr.js"></script>
+	<link rel="stylesheet" href="css/component.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="creations/tab-logo.png">
+	
+	<script src="js/vendor/modernizr.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
-    <link rel="shortcut icon" href="creations/tab-logo.png">
-    <!-- Google Fonts -->
+	
+	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Gilda+Display|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	
 	<!--[if lt IE 9]>
@@ -39,7 +43,7 @@
                                 <li><a href="logIn.html">Log In</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="#">Log Out</a></li>
+                        <li class="active"><button class="btn btn-6 btn-6a">Log Out</button></li>
                     </ul>
                 </section>
             </nav>
@@ -80,7 +84,11 @@
                         <br><span>Glitter Flower by <a href="itemDetails.html">Nail Girl</a></span>
                     </div>
 
-                <div class="right"><a href="results.html">View More</a></div>
+                <div class="right">
+                    <form method="link" action="results.html">
+                        <button class="btn btn-6 btn-6a">View More</button>
+                    </form>
+                </div>
             </div>
         </section>
 
@@ -109,6 +117,7 @@
 	
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/foundation.min.js"></script>
+	<script src="js/classie.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 	  $(document).foundation();

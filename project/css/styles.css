@@ -1,7 +1,7 @@
 body {
   font-family: 'Gilda Display', serif; }
 
-h1, h2, h3, a {
+h1, h2, h3, a, .btn {
   font-family: 'Open Sans', sans-serif; }
 
 h1, h2, h3 {
@@ -47,8 +47,17 @@ html, body {
 nav {
   margin-top: 10px;
   background: #fff; }
-  nav * {
-    color: #000; }
+  nav .btn, nav .btn-6, nav .btn-6a {
+    width: 130px;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 8px 0 0 0;
+    border: 2px solid #ccc;
+    background: #ccc; }
+  nav .btn-6a:hover {
+    background: transparent;
+    color: #C03353;
+    border: 2px solid #C03353; }
   nav .global-search {
     width: 260px;
     font-family: 'Open Sans', sans-serif;
@@ -77,6 +86,7 @@ nav.top-bar {
 /* drop-down background */
 .top-bar-section .has-form,
 .top-bar-section .has-form,
+.top-bar-section ul,
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section ul li:hover:not(.has-form) > a,
 .top-bar-section .dropdown li a {
@@ -86,6 +96,9 @@ nav.top-bar {
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: #C9E7E4; }
+
+ul.dropdown {
+  box-shadow: 5px 5px 15px rgba(60, 60, 60, 0.6); }
 
 .top-bar-section .has-dropdown > a:after {
   border-color: #C26F76 transparent transparent transparent; }
@@ -216,7 +229,7 @@ span {
   padding-top: 10px; }
 
 .item-details {
-  background: #C26F76;
+  background: #e2dede;
   padding: 10px 10px 10px 0;
   overflow: hidden; }
   .item-details img[alt*="thumb"] {
@@ -235,3 +248,34 @@ img[alt*="ad-space"] {
 form.row {
   width: 540px;
   margin: 0 auto; }
+
+img[alt*="design-book"] {
+  margin-left: 5px; }
+
+.index .btn, .index .btn-6, .index .btn-6a {
+  width: 160px;
+  height: 40px;
+  padding: 5px 10px;
+  margin: 8px 0 0 0;
+  border: 2px solid #314764;
+  background: #314764; }
+.index .btn-6a:hover {
+  background: transparent;
+  color: #314764;
+  border: 2px solid #314764; }
+
+.item-details .btn-1 {
+  border: 3px solid #C03353;
+  color: #C03353;
+  height: 50px;
+  width: 490px;
+  padding: 5px 10px;
+  margin: 0; }
+.item-details .btn-1a:hover,
+.item-details .btn-1a:active {
+  color: #C03353;
+  background: #fff; }
+.item-details .btn-1a:focus {
+  color: #8E9BA2;
+  border: 3px solid #8E9BA2;
+  background: #d8dbdd; }
