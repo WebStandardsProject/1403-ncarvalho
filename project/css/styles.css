@@ -195,13 +195,6 @@ button.edit {
 button div:last-of-type {
   background: url("../creations/edit-pencil.png") no-repeat center right; }
 
-button.view {
-  padding: 10px;
-  background: #C9E7E5;
-  color: #324764;
-  margin: 0;
-  font-weight: 500; }
-
 div.row + .left {
   background: rgba(232, 232, 232, 0.9);
   margin: 10px 0;
@@ -256,7 +249,7 @@ img[alt*="design-book"] {
   width: 160px;
   height: 40px;
   padding: 5px 10px;
-  margin: 8px 0 0 0;
+  margin: -10px 0 0 0;
   border: 2px solid #314764;
   background: #314764; }
 .index .btn-6a:hover {
@@ -265,8 +258,8 @@ img[alt*="design-book"] {
   border: 2px solid #314764; }
 
 .item-details .btn-1 {
-  border: 3px solid #C03353;
-  color: #C03353;
+  border: 3px solid #314764;
+  color: #314764;
   height: 50px;
   width: 490px;
   padding: 5px 10px;
@@ -274,8 +267,69 @@ img[alt*="design-book"] {
 .item-details .btn-1a:hover,
 .item-details .btn-1a:active {
   color: #C03353;
-  background: #fff; }
+  background: #fff;
+  border: 3px solid #C03353; }
 .item-details .btn-1a:focus {
   color: #8E9BA2;
   border: 3px solid #8E9BA2;
   background: #d8dbdd; }
+
+form[action*="itemDetails.html"] .btn, form[action*="itemDetails.html"] .btn-6, form[action*="itemDetails.html"] .btn-6a {
+  border: 3px solid #C9E7E4;
+  color: #C03353;
+  height: 40px;
+  width: 200px;
+  padding: 5px 10px;
+  margin: 0;
+  background: #C9E7E4; }
+form[action*="itemDetails.html"] .btn-6a:hover {
+  color: #C03353;
+  background: transparent;
+  border: 3px solid #C03353; }
+
+.sign-up .btn, .sign-up .btn-1, .sign-up .btn-1a, .log-in .btn, .log-in .btn-1, .log-in .btn-1a {
+  background: #C03353;
+  border: 3px solid #C03353;
+  margin: 0;
+  height: 50px;
+  width: 200px;
+  padding: 5px 15px; }
+.sign-up .btn-1a:hover, .log-in .btn-1a:hover {
+  background: transparent;
+  border: 3px solid #314764;
+  color: #314764; }
+
+a {
+  color: #C26F76; }
+
+a:hover {
+  color: #314764; }
+
+#cta h4 {
+  color: #314764; }
+#cta li {
+  color: #313638; }
+#cta ul {
+  list-style-type: circle; }
+#cta .large-7 {
+  border: 1px solid #C9E7E4;
+  margin: 0;
+  min-height: 150px;
+  padding: 5px 10px; }
+#cta .large-5 {
+  background: #C9E7E4;
+  margin: 0;
+  min-height: 150px;
+  padding: 20px 10px 0 10px; }
+
+form[action*="signUp.html"] .btn, form[action*="signUp.html"] .btn-1, form[action*="signUp.html"] .btn-1a {
+  background: transparent;
+  border: 3px solid #C03353;
+  color: #C03353;
+  margin: 5px 50px;
+  width: 200px;
+  height: 70px; }
+form[action*="signUp.html"] .btn-1a:hover {
+  background: #C03353;
+  border: 3px solid #C03353;
+  color: #fff; }
