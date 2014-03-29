@@ -11,7 +11,8 @@ h1, h2, h3 {
   margin: 0 auto;
   padding: 10px;
   max-width: 1024px;
-  background: #fff; }
+  background: #fff;
+  overflow: hidden; }
 
 body {
   background: url("../creations/texture.jpg") repeat fixed; }
