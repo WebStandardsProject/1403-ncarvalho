@@ -7,9 +7,9 @@ h1, h2, h3{
 .container{
     margin: 0 auto;
     padding: 10px;
-    max-width: 1024px;
+    max-width: 1027px;
     background: #fff;
-    overflow: hidden; 
+    //overflow: hidden; 
 }
 body{
     background: url('../creations/texture.jpg') repeat fixed; }
@@ -88,7 +88,7 @@ nav.top-bar{
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section ul li:hover:not(.has-form) > a,
 .top-bar-section .dropdown li a{
-    background: #fff;
+    background: transparent;
     font-size: 12pt;
     font-family: 'Open Sans', sans-serif; }
 .top-bar-section li:not(.has-form) a:not(.button):hover{
@@ -102,6 +102,9 @@ ul.dropdown{
 .top-bar-section ul li:hover:not(.has-form) > a,
 .top-bar-section ul li:not(.has-form) > a{
     color: #6B1C2E; }
+li.has-dropdown ul li{
+   background: #fff;
+}
 
 /* FEATURED ASIDE STYLES */
 ul{
@@ -150,13 +153,16 @@ fieldset{
 	padding: 0 0 0 67px; /*IE fix*/
 	width: 30px; 
     height: 40px;
+    -moz-width: 30px;
+    -moz-height: 30px;
     outline: none;
     border: 0;
 	background: url('../img/search-icon.png') no-repeat center right; 
+	-moz-background: url('../img/search-icon.png') no-repeat center right; 
     text-indent: -9999px;
 	cursor: pointer; }
 #searchbtn:hover{
-	background: url('../img/search-icon-blue.png') no-repeat center right;   }
+	-moz-background: url('../img/search-icon-blue.png') no-repeat center right;   }
 .globalsearchbtn{ 
     float: left; 
     margin: -50px 0 0 180px;
@@ -338,6 +344,9 @@ form[action*="signUp.html"]{
     .index-featured{
         width: 25%;
     }
+    li.has-dropdown ul{
+       background: #fff;
+   }
     #cta{
         width: 97%;
         margin: 0 auto;
@@ -358,10 +367,10 @@ form[action*="signUp.html"]{
     }
     header{
        nav.top-bar{
-           min-height: 220px;
+           min-height: 250px;
            li h1{
                width: 100%;
-               height: 115px;
+               height: 120px;
                margin: 0 auto;
                background: url('../img/logo-200.png') no-repeat center top;
            }
@@ -370,17 +379,34 @@ form[action*="signUp.html"]{
                width: 100%;
            }
            section{
+               background: transparent;
                clear: both;
                margin-top: 25px;
                width: 100%;
                ul, li{
+                   background: transparent;
                    width: 100%;
                }
+               li.has-dropdown ul{
+                   background: #fff;
+               }
+               
                .btn{
                    visibility: hidden;
                }
            }
        }
+        .search-2{
+            margin-top: 90px;
+            background: transparent;
+            clear: both;
+            .global-search{
+                width: 700px;
+            }
+            .globalsearchbtn{
+                margin: -50px 0 0 600px;
+            }
+        }
     }
 
     .index-featured{
@@ -450,16 +476,31 @@ form[action*="signUp.html"]{
                width: 100%;
            }
            section{
+               background: transparent;
                clear: both;
                margin-top: 25px;
                width: 100%;
                ul, li{
                    width: 100%;
                }
+               li.has-dropdown{
+                   visibility: hidden;
+               }
                .btn{
                    visibility: hidden;
                }
            }
+           .search-2{
+            margin-top: 50px;
+            background: transparent;
+            clear: both;
+            .global-search{
+                width: 600px;
+            }
+            .globalsearchbtn{
+                margin: -50px 0 0 500px;
+            }
+        }
        }
     }
     .index-featured{
@@ -501,6 +542,18 @@ form[action*="signUp.html"]{
             width: 70%;
             margin: 0 0 0 -250px;
         }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 640px){
+    .search-2{
+            .global-search{
+                width: 400px;
+                margin-top: -35px;
+            }
+            .globalsearchbtn{
+                margin: -50px 0 0 300px;
+            }
     }
 }
 
@@ -591,6 +644,20 @@ form[action*="signUp.html"]{
             width: 300px;
             margin: 0 0 0 -380px;
         }
+    }
+    .sign-up, .log-in{
+        p, input{
+            width: 350px;
+        }
+        button{
+            margin-left: 0;
+        }
+    }
+    .row+.sign-up{
+        width: 350px;
+    }
+    .row+.log-in{
+        width: 350px;
     }
 }
 
@@ -683,5 +750,16 @@ form[action*="signUp.html"]{
             width: 270px;
             margin: 0 0 0 -780px;
         }
+    }
+    .sign-up, .log-in{
+        p, input:not[type="checkbox"]{
+            width: 300px;
+        }
+    }
+    .row+.sign-up{
+        width: 300px;
+    }
+    .row+.log-in{
+        width: 300px;
     }
 }
