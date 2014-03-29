@@ -689,4 +689,9 @@ form[action*="signUp.html"] .btn-1a:hover {
     width: 300px; }
 
   .row + .log-in {
-    width: 300px; } }
+    width: 300px; }
+
+  .row + .left {
+    width: 280px; }
+    .row + .left img {
+      width: 95%; } }

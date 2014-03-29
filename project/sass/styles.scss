@@ -762,4 +762,10 @@ form[action*="signUp.html"]{
     .row+.log-in{
         width: 300px;
     }
+    .row+.left{
+        width: 280px;
+        img{
+            width: 95%;
+        }
+    }
 }
